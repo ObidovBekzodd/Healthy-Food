@@ -1,0 +1,1217 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 1200px;
+}
+
+.header-section_blok {
+    position: relative;
+    top: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #150C01;
+    opacity: 0.6;
+}
+
+a.active {
+    color: #DC780B;
+}
+
+.header-section_submit {
+    width: 155px;
+    height: 46px;
+    margin-left: 320px;
+    background: #DC780B;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.header-section_submit:hover {
+    background-color:#150C01;
+    color:#FFFFFF;
+}
+
+.header-section_submit:active {
+    background-color: antiquewhite;
+    transition: 0.3s ease;
+    color: #DC780B;
+}
+
+/* /Header section */
+
+/* Main section */
+.main_section-blok {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.main_section-food {
+    width: 555px;
+    height: 161px;
+    margin-top: 0;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 58px;
+    color: #150C01;
+}
+
+.main_section-text {
+    width: 500px;
+    height: 43px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.order_now {
+    margin-top: 50px;
+    width: 158px;
+    height: 60px;
+    background: #DC780B;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.food_details {
+    width: 170px;
+    height: 60px;
+    margin-left: 30px;
+    /* opacity: 0.1; */
+    border: 1.5px solid #DC780B;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
+    background-color: white;
+    cursor: pointer;
+}
+/* /Section one */
+
+/* Section two */
+.main_section-blok_two {
+    text-align: center;
+    margin-top: 80px;
+} 
+
+.main_section-blok_two-features {
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+
+.main_section-blok_two__passion {
+    margin-top: 0;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #150C01;
+}
+
+.main_section-box_there {
+   position: relative;
+   top: 20px;
+   content: "";
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    gap: 200px;
+    
+}
+
+.section_bck-img {
+   position: absolute;
+   top: 16px;
+   left: 112px;
+}
+
+.section_bck-img2 {
+   position: absolute;
+   top: 16px;
+   left: 580px;
+}
+
+.section_bck-img3 {
+   position: absolute;
+   top: 16px;
+   left: 1041px;
+}
+
+.section_example {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.somehting {
+    width: px;
+    height: 68px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #150C01;
+    opacity: 0.7;
+}
+/* /Section two */
+
+/* Section there */
+.main_blok_three {
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.main_blok_three__img {
+    position: absolute;
+    right: 600px;
+    border-radius: 40px;
+}
+
+.exmaple_box {
+    position: absolute;
+    left: 700px;
+    top: 110px;
+}
+
+.exmaple_box_about {
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+
+.exmaple_box-product {
+    width: 470px;
+    height: 115px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+    margin-top: 0;
+
+}
+
+.exmaple_box_just-food {
+    width: 470px;
+    height: 77px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.exmaple_box-read_more {
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #DC780B;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.exmaple_box-read_more:hover {
+    background-color:#150C01;
+    color:#FFFFFF;
+    border: 1px solid red;
+    transition: 0.3s ease;
+}
+/* Section there */
+
+/* Section four */
+.verenge_box {
+    position: relative;
+    top: 800px;
+}
+.verenge_box-star {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.verenge_box-menu {
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+
+.verenge_box__love {
+    margin-top: 0;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+}
+
+.verenge_box-things {
+    width: 748px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.verenge_box-six {
+    display: flex;
+    align-items:center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 60px;
+}
+
+.killer-info {
+    width: 360px;
+    height: 480px;
+    background: #FFFFFF;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px; 
+}
+
+.back_img {
+    width: 360px;
+    height: 306px;
+    position: absolute;
+    background-image: url(/img/XAWO3cHvnE.png);
+    background-repeat: round;
+    border-radius: 75px 10px 110px 0px;
+}
+
+.muffen {
+    position: absolute;
+    top: 490px;
+    left: 20px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.sixten {
+    position: absolute;
+    top: 510px;
+    left: 300px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.food-info {
+    position: absolute;
+    width: 300px;
+    top: 530px;
+    left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.fa_plus {
+    position: absolute;
+    top: 610px;
+    left: 20px;
+    width: 36px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+     background: #DC780B;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.star-info {
+    position: absolute;
+    top: 615px;
+    left: 215px;
+    color:#DC780B;
+}
+
+.salads {
+    position: absolute;
+    top: 490px;
+    left: 420px;
+    display: inline-block;
+    padding-left: 20px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.solat {
+   margin: 0px;
+    border-radius: 75px 10px 120px 0px
+}
+
+.eleven {
+     position: absolute;
+    top: 510px;
+    left: 715px;
+     font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.buseniss {
+    position: absolute;
+    width: 300px;
+    top: 530px;
+    left: 440px;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.plus2 {
+    position: absolute;
+    top: 610px;
+    left: 440px;
+    width: 36px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+     background: #DC780B;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+
+.star-info2 {
+    position: absolute;
+    top: 615px;
+    left: 636px;
+    color:#DC780B;
+}
+
+.burger {
+        position: absolute;
+        top: 490px;
+        left: 840px;
+        display: inline-block;
+        padding-left: 20px;
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 24px;
+        color: #150C01;
+}
+
+.ten {
+    position: absolute;
+    top: 510px;
+    left: 1120px;
+     font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.buseniss3 {
+    position: absolute;
+    width: 300px;
+    top: 530px;
+    left: 862px;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.plus3 {
+    position: absolute;
+    top: 610px;
+    left: 864px;
+    width: 36px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+     background: #DC780B;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;  
+}
+
+.star-info3 {
+    position: absolute;
+    top: 615px;
+    left: 1055px;
+    color:#DC780B;
+}
+
+.delmonico {
+        position: absolute;
+        top: px;
+        left: px;
+        display: inline-block;
+        padding-left: 20px;
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 24px;
+        color: #150C01;
+}
+
+.foxs {
+    position: absolute;
+    top: 1057px;
+    left: 300px;
+     font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01; 
+}
+
+.buseniss4 {
+    position: absolute;
+    width: 300px;
+    top: 1070px;
+    left: 20px;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.plus4 {
+    position: absolute;
+    top: 1153px;
+    left: 20px;
+    width: 36px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+     background: #DC780B;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;  
+}
+
+.star-info4 {
+    position: absolute;
+    top: 1160px;
+    left: 218px;
+    color:#DC780B;
+}
+
+.masala {
+    position: absolute;
+    top: px;
+    left: px;
+    display: inline-block;
+    padding-left: 20px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.nine {
+    position: absolute;
+    top: 1057px;
+    left: 720px;
+     font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01; 
+}
+
+.buseniss5 {
+    position: absolute;
+    width: 300px;
+    top: 1070px;
+    left: 440px;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.plus5 {
+    position: absolute;
+    top: 1153px;
+    left: 440px;
+    width: 36px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+     background: #DC780B;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;  
+}
+
+.star-info5 {
+    position: absolute;
+    top: 1160px;
+    left: 630px;
+    color:#DC780B;
+}
+
+.melba {
+    position: absolute;
+    top: px;
+    left: px;
+    display: inline-block;
+    padding-left: 20px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.five {
+    position: absolute;
+    top: 1057px;
+    left: 1140px;
+     font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01; 
+}
+
+.buseniss6 {
+    position: absolute;
+    width: 300px;
+    top: 1070px;
+    left: 860px;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.plus6 {
+    position: absolute;
+    top: 1153px;
+    left: 860px;
+    width: 36px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+     background: #DC780B;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;  
+}
+
+.star-info6 {
+    position: absolute;
+    top: 1160px;
+    left: 1050px;
+    color:#DC780B;
+}
+
+.more {
+    position: absolute;
+    left: 540px;
+top: 1270px;
+    width: 142px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #DC780B;
+    background-color:#FFFFFF;
+    border: 1px solid #DC780B;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.more:hover {
+    background-color: #DC780B;
+    color: #FFFFFF;
+}
+/* /Section four */
+
+/* Section five */
+.black_box {
+    position: relative;
+    top: 1274px;
+    width: 1300px;
+    height: 518px;
+    background: #FBF1E7;
+    opacity: 0.8;
+}
+
+.take-away {
+    position: absolute;
+    left: 200px;
+    top: 115px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+}
+
+.marketing {
+    position: absolute;
+    left: 200px;
+    top: 140px;
+    width: 530px;
+    height: 72px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+}
+
+.persons {
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    width: 540px;
+    height: 66px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.apple {
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    width: 165px;
+    height: 48px;
+    background: #150C01;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.store {
+    position: absolute;
+    left: 70px;
+    display: inline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+   
+}
+
+.apple2 {
+   position: absolute;
+   top: 13px;
+   left: 30px;
+}
+
+.google_play {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    display: inline-block;
+    width: 179px;
+    height: 48px;
+    border: 1.5px solid #150C01;
+    border-radius: 5px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.play {
+    position: absolute;
+    left: 30px;
+    top: 13px;
+}
+
+.play2 {
+    position: absolute;
+    left: 70px;
+    display: inline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #150C01;
+}
+
+.phone {
+    position: absolute;
+    left: 820px;
+   bottom: 400px;
+    height: 200px;
+    border-radius: 500px;
+}
+/* /Section five */
+
+/* Section sixe */
+.blok_box {
+    position: relative;
+    top: 1500px;
+    text-align: center;
+}
+
+.testimonial {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+    letter-spacing: 0.2em;
+}
+
+.great {
+    position: absolute;
+    left: 340px;
+    top: 5px;
+    width: 477px;
+    height: 24px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.stalls {
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    width: 750px;
+    height: 62px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.verengi {
+    position: absolute;
+    top: 180px;
+    left:550px;
+    border-radius: 50%;
+}
+
+.skills {
+    position: absolute;
+    left: 330px;
+    top: 280px;
+    width: 506px;
+    height: 59px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.point {
+    position: absolute;
+    left: 150px;
+    top: 325px;
+    font-size: 16px;
+    color:#150C01;
+    cursor: pointer;
+}
+
+.point2 {
+    position: absolute;
+    left: 1000px;
+    top: 322px;
+    cursor: pointer;
+}
+
+.plus7 {
+    position: absolute;
+    top: 400px;
+    left: 540px;
+    color:#DC780B;
+    cursor: pointer;
+}
+
+.reynoso {
+    position: absolute;
+    left: 490px;
+    top: 450px;
+    width: 200px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.designer {
+    position: absolute;
+    left: 540px;
+    top: 470px;
+    width: 100px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+/* /Section sixe */
+
+/* Section sevin */
+.width_blok {
+    position: relative;
+    top: 2100px;
+    width: 1300px;
+    height: 448px;
+    background: #FBF1E7;
+    opacity: 0.8;
+}
+
+.contact {
+    position: absolute;
+    left: 540px;
+    top: 100px;
+    width: 94px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.;
+}
+
+.buta-also {
+    position: absolute;
+    left: 200px;
+    top: 115px;
+    width: 749px;
+    height: 61px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 41px;
+    text-align: center;
+    color: #150C01;
+}
+
+.enter {
+    position: absolute;
+    left: 200px;
+    top: 280px;
+    display: inline-block;
+    width: 750px;
+    height: 75px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 41px;
+    color: #000000;
+    opacity: 0.5;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.send {
+    position: absolute;
+    left: 800px;
+    top: 280px;
+    width: 156px;
+    height: 75px;
+    background: #DC780B;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    border:none;
+}
+/* /Section sevin */
+/* /Main end */
+
+/* Footer */
+.footer_blok {
+    position: relative;
+    top: 2100px;
+    width: 1300px;
+    height: 429px;
+    background: #252525;
+}
+
+.box_footer {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.email {
+    color: #FFFFFF;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.blok_footer-info {
+    position: absolute;
+    top: 170px;
+    left: 400px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.info_link {
+    display: inline-block;
+    width: 262px;
+    height: 25px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.info_link1 {
+    display: inline-block;
+    width: 262px;
+    height: 25px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.blok_span {
+   position: absolute;
+   left: 680px;
+   top: 160px;
+   font-size: 18px;
+}
+/* /Footer */
